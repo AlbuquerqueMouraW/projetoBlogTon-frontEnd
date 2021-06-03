@@ -4,7 +4,7 @@ export const environment = {
   nome: '',
   id: 0,
   foto: '',
-  server: 'http://localhost:55827'
+  server: 'https://washalbuqmoura.herokuapp.com'
 };
 
-//https://washalbuqmoura.herokuapp.com/
+//'https://washalbuqmoura.herokuapp.com'

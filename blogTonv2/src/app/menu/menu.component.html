@@ -7,14 +7,14 @@
       <ul class="navbar-nav mr-auto d-flex align-items-center">
 
         <li class="nav-item active">
-          <img src="https://imgur.com/C9WAA1r.jpg" alt="imagem do user " width ="40px" height="50px" class="img-fluid rounded-circle" >
+          <img src="{{foto}}" alt="imagem do user " width ="40px" height="50px" class="img-fluid rounded-circle" >
         </li>
         <li class="nav-item pl-3">
-            <p class ="m-0 font-weight-bold text-secondary fs-16">Name User</p>
+            <p class ="m-0 font-weight-bold text-primary fs-16">{{nome}}</p>
         </li>
         <li class ="nav-item pl-3">
             <a href="">
-            <p class ="text-secondary fs-16 m-0"><i class="fa fa-pencil" aria-hidden="true"></i></p>
+            <p class ="text-dark fs-16 m-0"><i class="fa fa-pencil" aria-hidden="true"></i></p>
             </a>
         </li>
 
@@ -23,7 +23,7 @@
       <ul class="navbar-nav ml-auto d-flex align-items-center">
 
         <li class="nav-item pl-3">
-            <button class="btn btn-sm btn-outline-danger" type="submit"> <i class="fa fa-sign-out" aria-hidden="true"></i> Sair</button>
+            <button (click)='sair()' class="btn btn-sm btn-outline-danger" type="submit"> <i class="fa fa-sign-out" aria-hidden="true"></i> Sair</button>
         </li>
 
     </ul>
